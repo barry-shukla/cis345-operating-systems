@@ -1,0 +1,19 @@
+1. What is the value of argv? (hint: print argv)
+
+The value of argv is a hexadecimal string, 0x7fffffffe238, which is the pointer address to the array containing the arguments.
+
+2. What is pointed to by argv? ?
+
+argv points to ./lbcount, because ./lbcount is the 0th argument (or rather the 0th element of the argument array).
+
+3. What is the value of byteCount? lineCount?
+
+The value of byteCounts is 4. The value for lineCount is 0
+
+4. What is the address of the function main?
+
+
+
+5. Try info stack. Explain what you see.
+
+6. try info frame. Explain what you see.
